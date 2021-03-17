@@ -1,17 +1,25 @@
-# the website of software-developer.org
+# The Website of software-developer.org
 
 A site containing blogs about technologies and software development, adressed to developers.
 
-# run
+# Getting Started
 
-For running local either use:
+## Installation
+
+Run `npm install` to install all packages.
+
+## Run Website
+
+Run website you can:
+
 ```bash
+# either start ...
 npm start
-```
-or 
-```bash
+# ... or start in debug mode
 DEBUG=website:* npm start
+# now open localhost:3000 in your browser
 ```
-and switch to _localhost:3000_ in your browser.
 
-For further information see: https://expressjs.com/en/starter/generator.html
+# Resources
+
+- [Express app skeleton generator](https://expressjs.com/en/starter/generator.html)
