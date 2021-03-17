@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "test": "jest",
     "e2e-test": "jest --config jest.e2e.config.js",
     "lint": "eslint .",
     "fix": "eslint --fix ."
