@@ -1,8 +1,25 @@
 body {
-  padding: 50px;
+  width: 1200px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.header {
+  max-height: 10%;
+  color: red;
+}
+
+.blogNavigation {
+  max-height: 90%;
+  max-width: 200;
+  color: green;
+}
+
+.main {
+  max-height: 90%;
+  max-width: 1000px;
+  color: yellow;
 }
