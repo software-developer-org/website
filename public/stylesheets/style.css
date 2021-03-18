@@ -1,25 +1,25 @@
 body {
-  width: 1200px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ width: 1200px;
+ font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+ color: #00b7ff;
 }
 
 .header {
-  max-height: 10%;
-  color: red;
+ max-height: 10%;
+ background-color: red;
 }
 
 .blogNavigation {
-  max-height: 90%;
-  max-width: 200;
-  color: green;
+ max-height: 90%;
+ max-width: 200;
+ background-color: green;
 }
 
 .main {
-  max-height: 90%;
-  max-width: 1000px;
-  color: yellow;
+ max-height: 90%;
+ max-width: 1000px;
+ background-color: yellow;
 }
