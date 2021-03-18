@@ -77,11 +77,9 @@ gcloud init
 
 ```bash
 git clone https://github.com/software-developer-org/website
-```
-```bash
+
 cd <reponame> # change into your repo directory (e.g website)
-```
-```bash
+
 # Run 
 npm install
 ```
@@ -89,8 +87,8 @@ npm install
 ```bash
 # Run
 gcloud app deploy
-```
-```bash
+
+
 # Output after running command:
 descriptor:      [/xxxx/xxxxxx/xxxxx/website/app.yaml]
 source:          [/xxxx/xxxxxx/xxxxx/website]
@@ -98,11 +96,11 @@ target project:  [website-306411]
 target service:  [default]
 target version:  [20210318t124237]
 target url:      [https://website-306411.ey.r.appspot.com]
-```
-```bash
+
+
 Do you want to continue (Y/n)?  Y # proceed with Y
-```
-```bash
+
+
 File upload done.
 Updating service [default]...done.                                                                                                                                                           
 Setting traffic split for service [default]...done.                                                                                                                                          
