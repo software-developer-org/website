@@ -25,7 +25,7 @@ DEBUG=website:* npm start
 - [Express app skeleton generator](https://expressjs.com/en/starter/generator.html)
 
 
-# Structure Folder in Express-Generator
+# Folder Structure in Express-Generator
 
 By default the express-generator starts off with 4 folders.
 
@@ -49,5 +49,19 @@ public
 Ressource: 
 - [reate-new-express-js-apps-with-express-generator](https://www.sitepoint.com/create-new-express-js-apps-with-express-generator/)
 
+# Key Files
+
+TODO: 
+- view engine
+  - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#what_view_engine_should_i_use
+- creating and using template
+  - https://expressjs.com/en/guide/using-template-engines.html
+
+# Deploying to Google Cloud
+
+
+TODO:
+- instructions
+- links
 
 
