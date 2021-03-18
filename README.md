@@ -55,14 +55,11 @@ Ressource:
 
 - Source for [installation](https://cloud.google.com/sdk/docs/quickstart#deb)
   - Note: Be sure to choose the right Operating System
-```
+```bash
 $ echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-```
 
-```
 $ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-```
-```
+
 $ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
 2. Initializing Google Cloud Shell
@@ -131,10 +128,8 @@ Opening [https://website-306411.ey.r.appspot.com] in a new tab in your default b
 # Key Files
 
 TODO: 
-- view engine
-  - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#what_view_engine_should_i_use
-- creating and using template
-  - https://expressjs.com/en/guide/using-template-engines.html
+- [view engine](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#what_view_engine_should_i_use)
+- [creating and using template](https://expressjs.com/en/guide/using-template-engines.html)
 
 
 
