@@ -53,7 +53,8 @@ Ressource:
 
 1. Installing Google Cloud SDK 
 
-- Source for [debian/ubuntu installation](https://cloud.google.com/sdk/docs/quickstart#deb)
+- Source for [installation](https://cloud.google.com/sdk/docs/quickstart#deb)
+  - Note: Be sure to choose the right Operating System
 ```
 $ echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 ```
@@ -87,7 +88,7 @@ cd <reponame> # change into your repo directory (e.g website)
 # Run 
 npm install
 ```
-4. Deploy App to Google Cloud from IDE or Terminal
+4. Deploy App to Google Cloud
 ```bash
 # Run
 gcloud app deploy
@@ -122,9 +123,7 @@ gcloud app browse
 Opening [https://website-306411.ey.r.appspot.com] in a new tab in your default browser.
 ```
 
-TODO: 
 
-Deploying from Cloud Shell
 
 
 
