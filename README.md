@@ -20,7 +20,7 @@ DEBUG=website:* npm start
 # now open localhost:3000 in your browser
 ```
 
-# Resources
+## Resources
 
 - [Express app skeleton generator](https://expressjs.com/en/starter/generator.html)
 
@@ -123,11 +123,43 @@ Opening [https://website-306411.ey.r.appspot.com] in a new tab in your default b
 
 
 
-# Key Files
+# Templates
+- In this project, [PugJs](https://pugjs.org/api/getting-started.html) is used as view engine.
+- Your are able to create a base layout (eg. layout.pug) for all served pages. In this template you specify a `block` containing default elements.
+  - Blocks can display default content or may be replaced by child blocks, which inherit behavior from the parent block.
+```bash
+doctype html
+html
+  head
+    title= 'software-developer.org'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block header        # defining a block 
+      div.header Header # default element for extending files
+    block blogNavigation 
+      div.blogNavigation Blog Navigation
+    block main
+      div.main Main Content 
+    block impressum 
+      div.impressum Impressum
+```
+- Use `extends` keyword in files (like on about.pug or index.pug) to inherit the base template and to modify default elements and display actual content.
+```bash
+# e.g. index.pug
+extends layout    # inherit base layout with all blocks from layout template
 
-TODO: 
-- [view engine](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#what_view_engine_should_i_use)
-- [creating and using template](https://expressjs.com/en/guide/using-template-engines.html)
+block main        # redefine inherited block
+  div.main 
+    h1 #{title}   # actual content 
 
+# all other blocks (header, blogNavigation, impressum) will also be displayed on the actual page.
 
+```
+## Resources for Pug, Templates and CSS
+
+- [overview of of different view engines](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#what_view_engine_should_i_use)
+- [creating and using templates in express.js](https://expressjs.com/en/guide/using-template-engines.html)
+- [css-grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [pug: getting started](https://pugjs.org/api/getting-started.html)
+- [pug-engine: templates and inheritance](https://pugjs.org/language/inheritance.html)
 
