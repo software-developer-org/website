@@ -13,4 +13,9 @@ router.get('/about', function (req, res, next) {
  res.render('about', { title: 'This is the About Page' });
 });
 
+/* GET Impressum page. */
+// eslint-disable-next-line no-unused-vars
+router.get('/impressum', function (req, res, next) {
+ res.render('impressum', { title: 'This is the Impressum Page' });
+});
 module.exports = router;
