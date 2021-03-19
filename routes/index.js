@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 // eslint-disable-next-line no-unused-vars
 router.get('/', function (req, res, next) {
- res.render('index', { title: 'This is the Homepage' });
+  res.render('index', { title: 'This is the Homepage' });
 });
 
 module.exports = router;
