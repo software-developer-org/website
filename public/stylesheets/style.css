@@ -1,13 +1,13 @@
 body {
- width: 1200px;
- font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
- display: grid;
- grid-template-columns: [line1]10% [line2]auto;
- grid-template-rows: [row1]10% [row2]500px [row3]100px;  /* row2 must be 'auto' in full page */
+  width: 1200px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  display: grid;
+  grid-template-columns: [line1]10% [line2]auto;
+  grid-template-rows: [row1]10% [row2]500px [row3]100px;  /* row2 must be 'auto' in full page */
 }
 
 a {
- color: #00b7ff; /* delete / change ?? */
+  color: #00b7ff; /* delete / change ?? */
 }
 
 .header {
@@ -37,10 +37,10 @@ a {
 }
 
 .impressum {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color: blue; /* only for test purpose*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: blue; /* only for test purpose*/
   
 }
