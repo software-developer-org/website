@@ -3,7 +3,7 @@ body {
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
   display: grid;
   grid-template-columns: [line1]10% [line2]auto;
-  grid-template-rows: [row1]10% [row2]500px [row3]100px;  /* row2 must be 'auto' in full page */
+  grid-template-rows: [row1]10% [row2]500px [row3]100px; /* row2 must be 'auto' in full page */
 }
 
 a {
@@ -42,5 +42,4 @@ a {
   grid-row-start: 3;
   grid-row-end: 4;
   background-color: blue; /* only for test purpose*/
-  
 }
