@@ -2,8 +2,8 @@ body {
   /*setting max width for testing purpose*/
   width: 1200px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
-  
-  /* for more details about css-grid refer to https://css-tricks.com/snippets/css/complete-guide-grid/ */ 
+
+  /* for more details about css-grid refer to https://css-tricks.com/snippets/css/complete-guide-grid/ */
 
   /* Defines the element as a grid container and establishes a new grid formatting context for its contents.*/
   display: grid;
