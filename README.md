@@ -16,9 +16,10 @@ Run website you can:
 # either start ...
 npm start
 # ... or start in debug mode
-DEBUG=website:* npm start
+npm run debug
 # now open localhost:3000 in your browser
 ```
+For detailed overview of scripts refer to the package.json
 
 ## Resources
 
