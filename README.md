@@ -17,7 +17,11 @@ Run website you can:
 npm start
 # ... or start in debug mode
 npm run debug
-# now open localhost:3000 in your browser
+# now open localhost:3000 in your browser for main page
+
+# open localhost:3000/about for about page
+
+# open localhost:3000/impressum for impressum page
 ```
 
 For detailed overview of scripts refer to the package.json
