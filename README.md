@@ -23,6 +23,16 @@ npm run debug
 
 # open localhost:3000/impressum for impressum page
 ```
+We are using ESLint and Prettier for code analyzing and formatting.
+
+```bash
+# fixing linter problems run:
+npm run fix:lint
+# checking, if all files have correct code formatting, run:
+npm run format:check
+# apply code formatting rules to all files, run:
+npm run format:write
+```
 
 For detailed overview of scripts refer to the package.json
 
