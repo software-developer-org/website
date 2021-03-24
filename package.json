@@ -8,7 +8,8 @@
     "test": "jest",
     "e2e-test": "jest --config jest.e2e.config.js",
     "lint": "eslint .",
-    "fix:lint": "eslint --fix ."
+    "fix:lint": "eslint --fix .",
+    "format:check": "npx prettier --check ."
   },
   "repository": {
     "type": "git",
