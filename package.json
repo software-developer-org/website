@@ -9,7 +9,8 @@
     "e2e-test": "jest --config jest.e2e.config.js",
     "lint": "eslint .",
     "fix:lint": "eslint --fix .",
-    "format:check": "npx prettier --check ."
+    "format:check": "npx prettier --check .",
+    "format:write": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
