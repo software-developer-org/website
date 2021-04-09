@@ -4,7 +4,7 @@
   "scripts": {
     "build": "./node_modules/.bin/ts-node build.ts",
     "lint": "eslint . --ext .ts",
-    "start": "node -r module-alias/register ./dist",
+    "start": "npm run build; node -r module-alias/register ./dist",
     "start:dev": "nodemon"
   },
   "nodemonConfig": {
@@ -13,9 +13,9 @@
     ],
     "ext": "ts, html",
     "ignore": [
-      "src/public"
+      "src/public/stylesheets"
     ],
-    "exec": "./node_modules/.bin/ts-node -r tsconfig-paths/register ./src"
+    "exec": "npm run start"
   },
   "_moduleAliases": {
     "@shared": "dist/shared",
@@ -52,7 +52,7 @@
     }
   },
   "eslintIgnore": [
-    "src/public/",
+    "src/public/stylesheets",
     "build.ts"
   ],
   "dependencies": {
