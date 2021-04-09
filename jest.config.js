@@ -1,4 +1,6 @@
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
+  testMatch: ['**/+(*.)+(spec).+(ts)'],
+  transformIgnorePatterns: ['node_modules', 'dist'],
 };
