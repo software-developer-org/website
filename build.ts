@@ -18,7 +18,7 @@ logger.timestamp = false;
         // Remove current build
         await remove('./dist/');
         // Copy front-end files
-        await copy('./src/public', './dist/public');
+        await copy('./src/public/stylesheets', './dist/public/stylesheets');
         await copy('./src/views', './dist/views');
         // Copy back-end files
         await exec('tsc', './')
