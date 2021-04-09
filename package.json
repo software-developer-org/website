@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "build": "./node_modules/.bin/ts-node build.ts",
-    "lint": "eslint . --ext .ts",
     "start": "npm run build; node -r module-alias/register ./dist",
-    "start:dev": "nodemon"
+    "start:dev": "nodemon",
+    "test": "jest",
+    "e2e-test": "jest --config jest.e2e.config.js",
+    "lint": "eslint .",
+    "fix:lint": "eslint --fix .",
+    "format:check": "npx prettier --check .",
+    "format:write": "npx prettier --write ."
   },
   "nodemonConfig": {
     "watch": [
@@ -42,9 +47,10 @@
     "@typescript-eslint/parser": "^4.21.0",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "fs-extra": "^9.1.0",
     "nodemon": "^2.0.7",
-    "prettier": "2.2.1",
+    "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.2.4"
