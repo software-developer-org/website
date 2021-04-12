@@ -16,7 +16,8 @@ logger.timestamp = false;
     await remove('./dist/');
     // Copy front-end files
     await copy('./src/public/stylesheets', './dist/public/stylesheets');
-    await copy('./src/views', './dist/views');
+    // Copy only htmls from views folder
+    await exec('mkdir dist/views; cp -r src/views/*.html dist/views', './')
     // Copy back-end files
     await exec('tsc', './');
   } catch (err) {
